@@ -14,4 +14,4 @@
 -- | 2020 | 30       |
 -- +------+----------+
 
-
+SELECT year, COUNT(*) AS games FROM teams GROUP BY year;
